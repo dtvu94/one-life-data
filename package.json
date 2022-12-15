@@ -7,9 +7,13 @@
     "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
     "visualize": "meteor --production --extra-packages bundle-visualizer"
   },
+  "engines": {
+    "node": "^14.19.3"
+  },
   "dependencies": {
     "@babel/runtime": "^7.17.9",
     "meteor-node-stubs": "^1.2.1",
+    "mongodb": "^4.12.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
